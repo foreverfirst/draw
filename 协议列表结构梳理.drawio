@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T09:47:05.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="HD0mE_dgpPOSRoNyb15g" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T09:47:47.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="mGNDug6sgJPmZIHJ6zha" version="21.0.10" type="github">
   <diagram name="第 1 页" id="QWs2OUtahTp_4iVBiYvr">
     <mxGraphModel dx="1674" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             <mxPoint x="410" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F8SisLxMHx2SGx92o3Pz-34" value="协议与其他主体的关系：&lt;br&gt;厂家：n:1 一个厂家提供多种协议&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备：1:1 每种设备版本对应指定的协议版本&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;网关：n:n 每种协议适配多种网关&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="F8SisLxMHx2SGx92o3Pz-34" value="协议与其他主体的关系：&lt;br&gt;厂家：n:1 一个厂家提供多种协议&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备：1:1 每种协议+版本适配指定的设备型号+版本&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;网关：n:n 每种协议适配多种网关&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="40" width="370" height="100" as="geometry" />
         </mxCell>
       </root>
