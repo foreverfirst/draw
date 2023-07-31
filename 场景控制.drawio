@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T01:55:42.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="0WKnyn5chtve3-yLF3G4" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T01:56:58.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="wQiZU_bYRP1qhKxPrMp-" version="21.1.2" type="github">
   <diagram name="第 1 页" id="lyDB6sdXjVsJbI7c36Xo">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,20 +208,23 @@
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-109" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="930" width="750" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-111" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;手动控制场景&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-111" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;手动控制&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="930" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-117" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1130" width="330" height="100" as="geometry" />
+          <mxGeometry x="152" y="990" width="505" height="260" as="geometry" />
         </mxCell>
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-112" value="测点属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1139" width="60" height="30" as="geometry" />
+          <mxGeometry x="212" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-113" value="当前值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1139" width="60" height="30" as="geometry" />
+          <mxGeometry x="370" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-114" value="当前值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1139" width="60" height="30" as="geometry" />
+          <mxGeometry x="530" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-123" value="下发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1280" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
