@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T06:03:14.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="4GuzIBPdaft9n-eEBVlh" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T09:31:39.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="d8PUO-IFIBgU_KzqByG_" version="21.1.2" type="github">
   <diagram name="第 1 页" id="lyDB6sdXjVsJbI7c36Xo">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,13 +40,13 @@
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-124" value="" style="group" parent="9iU1fn-FeT9_4Y7vPAtA-134" vertex="1" connectable="0">
           <mxGeometry width="318" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-112" value="测点属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9iU1fn-FeT9_4Y7vPAtA-124" vertex="1">
+        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-112" value="测点名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9iU1fn-FeT9_4Y7vPAtA-124" vertex="1">
           <mxGeometry width="50.476190476190474" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-113" value="当前值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9iU1fn-FeT9_4Y7vPAtA-124" vertex="1">
           <mxGeometry x="132.92063492063494" width="50.476190476190474" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-114" value="当前值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9iU1fn-FeT9_4Y7vPAtA-124" vertex="1">
+        <mxCell id="9iU1fn-FeT9_4Y7vPAtA-114" value="下发值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9iU1fn-FeT9_4Y7vPAtA-124" vertex="1">
           <mxGeometry x="267.5238095238095" width="50.476190476190474" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9iU1fn-FeT9_4Y7vPAtA-133" value="单位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9iU1fn-FeT9_4Y7vPAtA-134" vertex="1">
