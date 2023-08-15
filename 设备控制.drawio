@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T03:48:58.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="1M9YzCWdow-G86IyquJ_" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T03:49:18.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="XL-_2zQE6JmBmb10eDfo" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,20 +125,23 @@
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-53" value="&lt;font color=&quot;#3333ff&quot;&gt;comm3&lt;br&gt;&lt;/font&gt;uuid2&lt;br&gt;varSn&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-49">
           <mxGeometry x="155" y="35" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-54" value="jobDelayQueue：任务超时监测队列，到达任务的超时时间后执行，判断任务中是否还有未执行的varSn，若有，则任务执行超时，向用户返回错误提示并移除任务，否则任务已全部执行完成，移除任务。" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="630" width="640" height="110" as="geometry" />
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="94" y="620" width="640" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-55" value="task1&lt;br&gt;uuid1&lt;br&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="680" width="100" height="50" as="geometry" />
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-54" value="&lt;b&gt;jobDelayQueue&lt;/b&gt;：任务超时监测队列，到达任务的超时时间后执行，判断任务中是否还有未执行的varSn，若有，则任务执行超时，向用户返回错误提示并移除任务，否则任务已全部执行完成，移除任务。" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
+          <mxGeometry width="640" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-56" value="task4&lt;br&gt;uuid4&lt;br&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="680" width="100" height="50" as="geometry" />
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-55" value="task1&lt;br&gt;uuid1&lt;br&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
+          <mxGeometry x="10" y="50" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-57" value="task2&lt;br&gt;uuid2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="256" y="680" width="100" height="50" as="geometry" />
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-56" value="task4&lt;br&gt;uuid4&lt;br&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
+          <mxGeometry x="390" y="50" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-58" value="task3&lt;br&gt;uuid3&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="680" width="100" height="50" as="geometry" />
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-57" value="task2&lt;br&gt;uuid2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
+          <mxGeometry x="136" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-58" value="task3&lt;br&gt;uuid3&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
+          <mxGeometry x="260" y="50" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
