@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T06:15:13.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="LwoQh-j9VzmohNtQFFHD" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T06:15:44.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="GFwWrscNpoM0Gi81IUTC" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
           <mxGeometry x="20" y="1310" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-22" value="找到报文对应的设备，&lt;br style=&quot;font-size: 14px;&quot;&gt;设置isExecuting=false&lt;br&gt;并将commandQueue头部元素出列" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1290" width="170" height="90" as="geometry" />
+          <mxGeometry x="160" y="1290" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-27" value="设备1&lt;br&gt;若isExecuting为false且commandQueue不为空，取头部元素command，若该command对应的任务uuid在varChangeJobs中不存在，说明该任务已经超时并移除，不满足执行条件，并将该command移除；&lt;br&gt;重复上述操作，直至找到首个可执行的command，将该command下发执行，将isExecuting设为true，同时将该command包含的变量从&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;varChangeJobs的varSns中移除，表示该批变量已下发执行；&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="150" y="1015" width="280" height="205" as="geometry" />
@@ -76,9 +76,6 @@
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-39" value="&lt;b&gt;uuid4&lt;/b&gt;&lt;br&gt;maxExecuteTime&lt;br&gt;varSns" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
           <mxGeometry x="410" y="40" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-41" value="遍历commandQueue，&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1320" width="166" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-45" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="80" y="770" width="310" height="210" as="geometry" />
