@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T05:54:45.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="0j2fqmG6X4kCv_E_0rU_" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T05:55:18.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="seNbZA8PDtRGEINAI-J7" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,17 +131,17 @@
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-54" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;jobDelayQueue&lt;/b&gt;：任务超时监测队列，到达任务的超时时间后执行;&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;varChangeJobs中找到对应任务，若&lt;/span&gt;任务中的varSns仍不为空，则任务执行超时，向用户返回错误提示并移除任务，否则任务已执行完成，移除任务。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
           <mxGeometry width="660" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-55" value="task1&lt;br&gt;uuid1：任务uuid&lt;br&gt;maxExecuteTime:超时时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
-          <mxGeometry x="10.3125" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-55" value="task1&lt;br&gt;uuid1：任务uuid&lt;br&gt;maxExecuteTime:超时时间" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
+          <mxGeometry x="10.31" y="68.18" width="149.69" height="68.18" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-56" value="task4&lt;br&gt;uuid4&lt;br&gt;maxExecuteTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
-          <mxGeometry x="402.1875" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
+          <mxGeometry x="449.9975" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-57" value="task2&lt;br&gt;uuid2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;maxExecuteTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
-          <mxGeometry x="140.25" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
+          <mxGeometry x="190" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-58" value="task3&lt;br&gt;uuid3&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;maxExecuteTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-59">
-          <mxGeometry x="268.125" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
+          <mxGeometry x="319.995" y="68.18181818181817" width="103.125" height="68.18181818181817" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
