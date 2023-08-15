@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T02:41:15.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="h_JqB3p79Mi5djw84Qkz" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T02:51:28.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="G-b8nM9ogIGK-Jfm77eD" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,13 +59,13 @@
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-22" value="收到命令执行结果的报文，找到相应设备&lt;br style=&quot;font-size: 14px;&quot;&gt;设置isExecuting=false&lt;br&gt;并将commandQueue头部元素出列" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="150" y="1180" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-13" value="&lt;font color=&quot;#3333ff&quot;&gt;comm2&lt;br&gt;&lt;/font&gt;uuid&lt;br&gt;varSn&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-13" value="&lt;font color=&quot;#3333ff&quot;&gt;comm2&lt;br&gt;&lt;/font&gt;uuid2&lt;br&gt;varSn&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="880" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-8" value="&lt;font&gt;comm1&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;uuid&lt;br&gt;varSn&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-8" value="&lt;font&gt;comm1&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;uuid1&lt;br&gt;varSn&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="287" y="880" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-26" value="&lt;font color=&quot;#3333ff&quot;&gt;comm3&lt;br&gt;&lt;/font&gt;uuid&lt;br&gt;varSn&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-26" value="&lt;font color=&quot;#3333ff&quot;&gt;comm3&lt;br&gt;&lt;/font&gt;uuid3&lt;br&gt;varSn&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="435" y="880" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-27" value="设备1&lt;br&gt;若isExecuting为false且commandQueue不为空，&lt;br&gt;则取头部元素comm1，下发命令，将isExecuting设为true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -80,16 +80,16 @@
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-31" value="varChangeJobs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
           <mxGeometry width="550" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-35" value="&lt;b&gt;uuid&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-35" value="&lt;b&gt;uuid1&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
           <mxGeometry x="10" y="40" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-37" value="&lt;b&gt;uuid&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-37" value="&lt;b&gt;uuid2&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
           <mxGeometry x="140" y="40" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-38" value="&lt;b&gt;uuid&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-38" value="&lt;b&gt;uuid3&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
           <mxGeometry x="275" y="40" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-39" value="&lt;b&gt;uuid&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-39" value="&lt;b&gt;uuid4&lt;/b&gt;&lt;br&gt;startTime&lt;br&gt;maxExecuteTime" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="aZvtLxzP1V7c9dnlBgdm-40">
           <mxGeometry x="410" y="40" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-41" value="遍历commandQueue，&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
