@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T06:10:14.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="NrIWq3cRU6AjpSRld9dS" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T06:12:23.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="VHwHxFopxPQMyrQOITi-" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-22" value="找到报文对应的设备，&lt;br style=&quot;font-size: 14px;&quot;&gt;设置isExecuting=false&lt;br&gt;并将commandQueue头部元素出列" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="160" y="1290" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aZvtLxzP1V7c9dnlBgdm-27" value="设备1&lt;br&gt;若isExecuting为false且commandQueue不为空，取头部元素command，若该command对应的任务uuid在varChangeJobs中不存在，说明该任务已经超时并移除，则将该command出列，&lt;br&gt;重复上述操作，直至满足条件，将该command下发执行，将isExecuting设为true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="aZvtLxzP1V7c9dnlBgdm-27" value="设备1&lt;br&gt;若isExecuting为false且commandQueue不为空，取头部元素command，若该command对应的任务uuid在varChangeJobs中不存在，说明该任务已经超时并移除，则将该command出列，&lt;br&gt;重复上述操作，直至满足条件，将该command下发执行，将isExecuting设为true，同时将该command包含的变量从&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;varChangeJobs的varSns中移除，表示该皮变量已下发执行；&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="150" y="1015" width="280" height="205" as="geometry" />
         </mxCell>
         <mxCell id="aZvtLxzP1V7c9dnlBgdm-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZvtLxzP1V7c9dnlBgdm-29" target="aZvtLxzP1V7c9dnlBgdm-60">
