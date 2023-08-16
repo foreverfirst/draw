@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T08:19:51.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Nh-vrIXiLvRdEMtVv1aM" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T08:20:28.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="6QI88J86vUZMTaWI5hSO" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="3126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,10 +85,14 @@
         <mxCell id="jxshLm3MOeYJrLO8u9Th-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jxshLm3MOeYJrLO8u9Th-95" source="jxshLm3MOeYJrLO8u9Th-1" target="aZvtLxzP1V7c9dnlBgdm-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="489.5" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="420" />
+              <mxPoint x="681" y="420" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jxshLm3MOeYJrLO8u9Th-102" value="系统接收到控制任务，根据任务设置的最长等待时间，开启任务超时监测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jxshLm3MOeYJrLO8u9Th-95">
-          <mxGeometry x="464.5" y="400" width="201.63" height="50" as="geometry" />
+          <mxGeometry x="444.5" y="420" width="201.63" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jxshLm3MOeYJrLO8u9Th-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jxshLm3MOeYJrLO8u9Th-95" source="jxshLm3MOeYJrLO8u9Th-1" target="jxshLm3MOeYJrLO8u9Th-11">
           <mxGeometry relative="1" as="geometry" />
