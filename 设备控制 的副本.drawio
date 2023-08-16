@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T06:33:21.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="-OLaiEJXF_nmre-kMq0X" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T06:34:58.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="mT1A8Ph3J2_QYF--0dui" version="21.6.6" type="github">
   <diagram name="第 1 页" id="vb60F82lbMc9g9bm6j9_">
     <mxGraphModel dx="1434" dy="4295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,6 +225,12 @@
         </mxCell>
         <mxCell id="jxshLm3MOeYJrLO8u9Th-4" value="用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305.62" y="-1200" width="131.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jxshLm3MOeYJrLO8u9Th-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jxshLm3MOeYJrLO8u9Th-11" target="aZvtLxzP1V7c9dnlBgdm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jxshLm3MOeYJrLO8u9Th-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jxshLm3MOeYJrLO8u9Th-11" target="NzLtEGVgidF3bGFGC7xt-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jxshLm3MOeYJrLO8u9Th-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;deviceWaitQueueMap&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="-1880" width="1160" height="220" as="geometry" />
