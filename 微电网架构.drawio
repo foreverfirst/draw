@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T02:32:26.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="8DhLNWPE3GUZkAqSZQbR" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T02:33:34.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="l90hjfhEVUsQ-32V9A6T" version="21.6.8" type="github">
   <diagram name="第 1 页" id="cHb1YN-oYYoYb4iAjXWB">
     <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,37 +25,47 @@
         <mxCell id="2oPk_KFz5OO0q4OnI_3X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mm6SVChQ33-bJFCGCcxM-6" target="Mm6SVChQ33-bJFCGCcxM-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="209" y="530" />
-              <mxPoint x="413" y="530" />
+              <mxPoint x="209" y="580" />
+              <mxPoint x="413" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-6" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="119.5" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="119.5" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2oPk_KFz5OO0q4OnI_3X-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mm6SVChQ33-bJFCGCcxM-8" target="Mm6SVChQ33-bJFCGCcxM-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336" y="580" />
+              <mxPoint x="413" y="580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-8" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="275.5" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="275.5" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2oPk_KFz5OO0q4OnI_3X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mm6SVChQ33-bJFCGCcxM-9" target="Mm6SVChQ33-bJFCGCcxM-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="580" />
+              <mxPoint x="413" y="580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-9" value="BMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="436.5" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="436.5" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-10" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="715" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-11" value="采集器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="353" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="352" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-12" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="540" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="539" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-13" value="配置管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="170" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="169" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-14" value="数据分析、报表UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
@@ -64,13 +74,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="649" y="625" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="649" y="530" />
-              <mxPoint x="413" y="530" />
+              <mxPoint x="649" y="580" />
+              <mxPoint x="413" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2oPk_KFz5OO0q4OnI_3X-17" value="......" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="600.5" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="600.5" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
