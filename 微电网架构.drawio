@@ -1,46 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T01:43:40.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="znsG7GDPs_js2rMtErQx" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T01:43:44.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="6e7DjiwdF_E2hTgAwbtz" version="21.6.8" type="github">
   <diagram name="第 1 页" id="cHb1YN-oYYoYb4iAjXWB">
     <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-1" value="&amp;nbsp; &amp;nbsp; Browser端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-1" value="&amp;nbsp; &amp;nbsp; Browser端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="120" y="90" width="640" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-3" value="微电网监测UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-3" value="微电网监测UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-4" value="配置管理UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-4" value="配置管理UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-5" value="&amp;nbsp; &amp;nbsp; Server端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-5" value="&amp;nbsp; &amp;nbsp; Server端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="120" y="370" width="640" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-7" value="&amp;nbsp; &amp;nbsp; 终端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-7" value="&amp;nbsp; &amp;nbsp; 终端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="110" y="650" width="640" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-6" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-6" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-8" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-8" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-9" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-9" value="充电桩" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-10" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-10" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="715" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-11" value="采集器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-11" value="采集器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-12" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-12" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-13" value="配置管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-13" value="配置管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm6SVChQ33-bJFCGCcxM-14" value="数据分析、报表UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mm6SVChQ33-bJFCGCcxM-14" value="数据分析、报表UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
