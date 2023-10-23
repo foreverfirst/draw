@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T02:40:09.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="xhJjA5KRoMBwSbKA_fbc" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T02:40:37.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="VciGDBMrkxi_YH54Xflf" version="21.6.8" type="github">
   <diagram name="第 1 页" id="cHb1YN-oYYoYb4iAjXWB">
     <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-10" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="715" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2oPk_KFz5OO0q4OnI_3X-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mm6SVChQ33-bJFCGCcxM-11" target="Mm6SVChQ33-bJFCGCcxM-12">
+        <mxCell id="2oPk_KFz5OO0q4OnI_3X-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6C8EBF;" edge="1" parent="1" source="Mm6SVChQ33-bJFCGCcxM-11" target="Mm6SVChQ33-bJFCGCcxM-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-11" value="采集器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
