@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T02:33:51.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="6cfs8BzyJj_C0cpYvCKt" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T02:34:16.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="Y50egmgHQIv5a4ee3-eE" version="21.6.8" type="github">
   <diagram name="第 1 页" id="cHb1YN-oYYoYb4iAjXWB">
     <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="100" y="90" width="640" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-3" value="微电网监测UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="184" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-4" value="配置管理UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="524" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="169" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-5" value="&amp;nbsp; &amp;nbsp; Server端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;align=left;verticalAlign=top;fontSize=18;spacingTop=4;" parent="1" vertex="1">
           <mxGeometry x="100" y="320" width="640" height="180" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="169" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mm6SVChQ33-bJFCGCcxM-14" value="数据分析、报表UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="539" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2oPk_KFz5OO0q4OnI_3X-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Mm6SVChQ33-bJFCGCcxM-11">
           <mxGeometry relative="1" as="geometry">
